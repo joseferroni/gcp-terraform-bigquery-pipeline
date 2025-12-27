@@ -12,3 +12,7 @@ Pipeline de Datos: Proceso de ingesta desde Cloud Storage hacia BigQuery.
 Carga Incremental: Implementación de lógica de deduplicación mediante sentencias SQL MERGE programadas, asegurando la integridad de los datos.
 
 Visualización: Entrega de datos  para análisis de negocio en Looker Studio
+
+En archivos '.tf' se crea la infrastructura : tablas, roles , buckets y datasets
+
+Link looker : https://lookerstudio.google.com/reporting/4ba0cedc-863a-4c50-96c3-038b17846978/page/9qrjF/edit
