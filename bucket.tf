@@ -18,6 +18,7 @@ resource "google_storage_bucket" "bucket_pruebas" {
 
   labels = {
     environment = "test"
-    owner       = "joseferroni"
+    owner       = "xxxxxxx"
   }
+
 }
