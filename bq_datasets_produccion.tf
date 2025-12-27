@@ -6,7 +6,7 @@ resource "google_bigquery_dataset" "produccion_datasets" {
 
   labels = {
     environment = "test"
-    owner       = "joseferroni"
+    owner       = "xxxxxxxx"
   }
   depends_on = [
     google_project_service.bigquery
@@ -44,4 +44,5 @@ EOF
     type  = "DAY"
     field = "OrderDate" 
   }
+
 }
