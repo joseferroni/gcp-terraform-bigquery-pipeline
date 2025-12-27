@@ -7,7 +7,7 @@ resource "google_bigquery_dataset" "sandbox_staging" {
   
   labels = {
     environment = "test"
-    owner       = "joseferroni"
+    owner       = "xxxxxxx"
   }
   depends_on = [
     google_project_service.bigquery
@@ -49,4 +49,5 @@ resource "google_bigquery_table" "sandbox_tabla_externa_ventas" {
 ]
 EOF
   }
+
 }
